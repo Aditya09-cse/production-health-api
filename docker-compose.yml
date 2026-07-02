@@ -1,0 +1,16 @@
+services:
+  production-health-api:
+    build: .
+    container_name: production-health-api
+
+    ports:
+      - "5000:5000"
+
+    restart: unless-stopped
+
+    env_file:
+      - .env
+
+    volumes:
+      - ./logs:/app/logs
+      - ./data:/app/data

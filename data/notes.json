@@ -1,1 +1,7 @@
-[]
+[
+    {
+        "id": 1,
+        "title": "Docker Test",
+        "content": "Running inside Docker"
+    }
+]
