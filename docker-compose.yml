@@ -1,6 +1,6 @@
 services:
   production-health-api:
-    build: .
+    image: aditya0910/production-health-api:latest
     container_name: production-health-api
 
     ports:
