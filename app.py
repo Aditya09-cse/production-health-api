@@ -1,5 +1,6 @@
 from flask import Flask, jsonify
 from routes.notes import notes_bp
+from routes.backup import backup_bp
 
 from utils.logger import setup_logger
 from routes.health import health_bp
@@ -11,6 +12,7 @@ app = Flask(__name__)
 # Register Blueprints
 app.register_blueprint(health_bp)
 app.register_blueprint(notes_bp)
+app.register_blueprint(backup_bp)
 
 logger.info("Application Started")
 
