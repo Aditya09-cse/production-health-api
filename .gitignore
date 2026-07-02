@@ -1,6 +1,28 @@
+# Python
 venv/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Environment
 .env
 
+# Logs
 logs/
+*.log
+
+# Testing
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Terraform (future-proof)
+*.tfstate
+*.tfstate.backup
