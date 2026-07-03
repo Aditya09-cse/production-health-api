@@ -244,4 +244,5 @@ https://github.com/Aditya09-cse
 
 LinkedIn
 
-(Add your LinkedIn URL)
+
+https://www.linkedin.com/in/aditya-tomar-42731628a
